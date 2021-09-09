@@ -1,0 +1,86 @@
+* {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Style for landing page*/
+
+.menu-title {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.menu-selection {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 20%;
+
+    text-align: center;
+    list-style: none;
+}
+
+.menu-selection a {
+    display: block;
+    margin: 0.25rem;
+    padding: 0.5rem;
+
+    border: solid 4px currentColor;
+    box-shadow: 0 5px 5px #00000050;
+
+    transition: background-color 300ms, color 300ms;
+}
+
+.menu-selection a:hover {
+    background: black;
+    color: white;
+}
+
+.menu-selection a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Style for all recipes*/
+
+.recipe {
+    width: 20%;
+    min-width: 20rem;
+    margin: 0 auto;
+
+    padding: 2rem;
+
+    border: solid 1px #00000010;
+    border-radius: 20px;
+
+    box-shadow: 0 5px 20px #00000030;
+}
+
+.recipe .title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.recipe h1 {
+    text-align: center;
+}
+
+.recipe h1 {
+    text-align: center;
+}
+
+.recipe img {
+    display: block;
+    width: 10rem;
+    margin: 0 auto;
+
+    border: solid 2px #000000;
+    border-radius: 100px;
+
+    box-shadow: 0 5px 5px #00000030;
+}
